@@ -83,10 +83,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp Q  &kp W  &kp F       &kp P      &kp B        &kp J  &kp L  &kp U      &kp Y    &kp SINGLE_QUOTE
-          &kp A  &kp R  &kp S       &kp T      &kp G        &kp M  &kp N  &kp E      &kp I    &kp O
-&kp BSPC  &kp Z  &kp X  &kp C       &kp D      &kp V        &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH          &kp RET
-                        &kp ESCAPE  &lt 1 TAB  &kp SPACE    &mo 3  &mo 2  &tog 3
+          &kp Q  &kp W  &kp F       &kp P      &kp B        &kp J  &kp L  &kp U         &kp Y    &kp SINGLE_QUOTE
+          &kp A  &kp R  &kp S       &kp T      &kp G        &kp M  &kp N  &kp E         &kp I    &kp O
+&kp BSPC  &kp Z  &kp X  &kp C       &kp D      &kp V        &kp K  &kp H  &kp COMMA     &kp DOT  &kp FSLH          &kp RET
+                        &kp ESCAPE  &lt 1 TAB  &kp SPACE    &mo 3  &mo 2  &lt 4 DELETE
             >;
         };
 
@@ -170,7 +170,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        tvp1_layer {
+        FUNCTION_LAYER {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "TVP 1";
@@ -187,10 +187,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
-       &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
-&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
-                              &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
+        &kp F12  &kp F7  &kp F8  &kp F9  &none     &none   &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &none
+        &kp F11  &kp F4  &kp F5  &kp F6  &none     &none   &kp RSHFT        &kp RCTRL       &kp RALT         &kp RGUI
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &none     &none   &none            &none           &none            &none     &trans
+                         &trans  &trans  &trans    &trans  &trans           &none
             >;
         };
 

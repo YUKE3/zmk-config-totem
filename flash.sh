@@ -3,7 +3,7 @@
 # Init values.
 file_path=""
 target_path=""
-verbose=0
+verbose=false
 
 # Usage
 usage() {
@@ -16,7 +16,7 @@ while getopts "f:t:v" opt; do
     case $opt in
         f) file_path="$OPTARG" ;;
         t) target_path="$OPTARG" ;;
-        v) verbose=1 ;;
+        v) verbose=true ;;
         \?) echo "Error: Unknown flag -$OPTARG" >&2; usage ;;
         :) echo "Error: Falg -$OPTARG requires an arguemtn" >&2; usage ;;
     esac

@@ -131,10 +131,10 @@
         symbol_layer {
             label = "ADJ";
             bindings = <
-        &kp TILDE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE           &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none             &none
-        &kp COLON  &kp DOLLAR       &kp PERCENT   &kp CARET             &kp MINUS                &kp DOUBLE_QUOTES  &kp RIGHT_SHIFT   &kp RCTRL          &kp RIGHT_ALT     &kp RIGHT_META
-&trans  &kp PIPE   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND             &kp PLUS                 &kp QUESTION       &kp EQUAL         &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH       &trans
-                                    &trans        &kp UNDERSCORE        &kp RIGHT_PARENTHESIS    &none              &trans            &trans
+        &kp TILDE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none             &none
+        &kp COLON  &kp DOLLAR       &kp PERCENT   &kp CARET              &kp MINUS         &kp DOUBLE_QUOTES  &kp RIGHT_SHIFT   &kp RCTRL          &kp RIGHT_ALT     &kp RIGHT_META
+&trans  &kp PIPE   &kp EXCLAMATION  &kp AT_SIGN   &kp POUND              &kp PLUS          &kp QUESTION       &kp EQUAL         &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH       &trans
+                                    &trans        &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &none              &trans            &trans
             >;
         };
 

@@ -94,10 +94,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-          &kp Q  &kp W  &kp F  &kp P  &kp B        &kp J  &kp L  &kp U  &kp Y  &kp SINGLE_QUOTE
-          &kp A  &kp R  &kp S  &kp T  &kp G        &kp M  &kp N  &kp E  &kp I  &kp O
-&kp BSPC  &kp Z            &kp X            &kp C                &kp D              &kp V        &kp K  &kp H               &kp COMMA     &kp DOT           &kp FSLH          &kp RET
-                                            &lt 5 ESCAPE         &mo 1              &kp SPACE    &mo 3  &mo 2               &lt 4 DELETE
+          &kp Q  &kp W  &kp F         &kp P  &kp B        &kp J  &kp L  &kp U         &kp Y    &kp SINGLE_QUOTE
+          &kp A  &kp R  &kp S         &kp T  &kp G        &kp M  &kp N  &kp E         &kp I    &kp O
+&kp BSPC  &kp Z  &kp X  &kp C         &kp D  &kp V        &kp K  &kp H  &kp COMMA     &kp DOT  &kp FSLH          &kp RET
+                        &lt 5 ESCAPE  &mo 1  &kp SPACE    &mo 3  &mo 2  &lt 4 DELETE
             >;
         };
 
@@ -107,10 +107,10 @@
             //   tap &osm to arm it, or hold it to chord with arrows / another layer.
             // D (&kp LGUI) taps Super by itself. &osm LGUI will not, because it is lazy.
             bindings = <
-        &none      &none      &none       &none       &none      &none         &none     &none          &kp INSERT   &none
-        &osm LGUI  &osm LALT  &osm LCTRL  &osm LSHFT  &osm RALT  &kp CAPSLOCK  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT
-&trans  &none      &none      &none       &kp LGUI    &none      &none         &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-                               &trans      &none       &trans     &trans        &trans    &trans
+        &none      &none      &none       &none       &none        &none         &none     &none          &kp INSERT   &none
+        &osm LGUI  &osm LALT  &osm LCTRL  &osm LSHFT  &osm RALT    &kp CAPSLOCK  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT
+&trans  &none      &none      &none       &kp LGUI    &none        &none         &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
+                              &trans      &none       &trans       &trans        &trans    &trans
             >;
         };
 

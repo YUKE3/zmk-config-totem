@@ -174,7 +174,7 @@
             label = "SYM";
             bindings = <
         &kp SLASH  &kp N7  &kp N8     &kp N9  &kp ASTRK       &none   &none      &none          &none             &none
-        &kp MINUS  &kp N4  &kp N5     &kp N6  &kp PLUS        &none   &kp LSHFT  &kp LCTRL      &kp RALT          &kp RIGHT_GUI
+        &kp MINUS  &kp N4  &kp N5     &kp N6  &kp PLUS        &none   &osm LSHFT &osm LCTRL     &osm RALT         &osm RIGHT_GUI
 &trans  &kp BSLH   &kp N1  &kp N2     &kp N3  &kp PERCENT     &none   &none      &kp LESS_THAN  &kp GREATER_THAN  &kp FSLH       &trans
                            &kp UNDER  &mo 3   &kp NUMBER_0    &trans  &none      &trans
             >;

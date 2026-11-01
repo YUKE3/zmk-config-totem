@@ -14,7 +14,28 @@ TOTEM is a 38 key column-staggered split keyboard running [ZMK](https://zmk.dev/
 
 ![TOTEM layout](/docs/images/TOTEM_layout.svg)
 
+## KEYMAP
 
+Colemak-DH on the base layer. Modifiers are one-shot keys on the nav layer, not home-row mods. Tap a modifier and it stays armed until the next key, including after you release nav or hold another layer. Holding a modifier still chords it. An unused tap drops after 5 seconds and is never sent, so a stray GUI tap does not open the OS menu. The plain Super key on nav (D) is the one that taps Super by itself.
+
+The previous home-row version is on the `homerow-mods` branch.
+
+Thumbs, from the left: Esc (hold for Bluetooth), Nav, Space, Shift, Numbers, Tab (hold for the function keys).
+
+- **Nav** — one-shot GUI, Alt, Ctrl, Shift, and AltGr on the left home row. Above them: previous, play/pause, next, volume down, volume up. Below them: Ctrl+Z/X/C/V and Ctrl+Shift+Z. Arrows, home, end, and page keys are on the right. Delete is the top-right key.
+- **Numbers** — numpad on the left, backslash at the lower left, one-shot Shift, Ctrl, Alt, and GUI on the right home row.
+- **Symbols** — hold Nav, then hold the Numbers thumb. `/` taps slash and holds Shift. `=` taps equals and holds Nav. The key beside `$` types `->`, Shift types `=>`, Alt types `<->`, and Shift+Alt types `<=>`.
+- **Combos** — Q+W is Esc. W+F is Tab.
+
+Diagrams for each layer are in [docs/keymap](docs/keymap).
+
+![Base layer](docs/keymap/base.svg)
+
+![Nav layer](docs/keymap/navi.svg)
+
+![Number layer](docs/keymap/sym.svg)
+
+![Symbol layer](docs/keymap/adj.svg)
 
 ## HOW TO USE
 
